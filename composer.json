@@ -1,0 +1,12 @@
+{
+  "autoload": {
+    "psr-4": {"App\\": "app/"}
+  },
+  "require": {
+    "symfony/dotenv": "^7.1",
+    "symfony/var-dumper": "^7.1",
+    "eftec/bladeone": "^4.13",
+    "ext-mysqli": "*",
+    "monolog/monolog": "^3.7"
+  }
+}
